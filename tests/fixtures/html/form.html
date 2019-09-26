@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="/action">
+        <input name="input-with-empty-value" value="">
+        <input name="input-with-non-empty-value" value="value content">
+        <input name="input-without-value">
+
+        <textarea name="empty-textarea"></textarea>
+        <textarea name="non-empty-textarea">textarea content</textarea>
+
+        <input type="radio" name="radio-not-checked" value="not-checked-1">
+        <input type="radio" name="radio-not-checked" value="not-checked-2">
+        <input type="radio" name="radio-not-checked" value="not-checked-3">
+
+        <input type="radio" name="radio-checked" value="checked-1">
+        <input type="radio" name="radio-checked" value="checked-2" checked>
+        <input type="radio" name="radio-checked" value="checked-3">
+
+        <select name="select-none-selected">
+            <option name="first" value="none-selected-1">First</option>
+            <option name="second" value="none-selected-2">Second</option>
+            <option name="third" value="none-selected-3">Third</option>
+        </select>
+
+        <select name="select-has-selected">
+            <option name="first" value="has-selected-1">First</option>
+            <option name="second" value="has-selected-2">Second</option>
+            <option name="third" value="has-selected-3" selected>Third</option>
+        </select>
+    </form>
+</body>
+</html>

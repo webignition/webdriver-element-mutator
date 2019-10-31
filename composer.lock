@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e16c97c8ce52c0cea70d0a194474e3b",
+    "content-hash": "d43642bc067a2484b119a5f793523bfd",
     "packages": [
         {
             "name": "facebook/webdriver",
@@ -68,16 +68,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.3.4",
+            "version": "v4.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "e89969c00d762349f078db1128506f7f3dcc0d4a"
+                "reference": "50556892f3cc47d4200bfd1075314139c4c9ff4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/e89969c00d762349f078db1128506f7f3dcc0d4a",
-                "reference": "e89969c00d762349f078db1128506f7f3dcc0d4a",
+                "url": "https://api.github.com/repos/symfony/process/zipball/50556892f3cc47d4200bfd1075314139c4c9ff4b",
+                "reference": "50556892f3cc47d4200bfd1075314139c4c9ff4b",
                 "shasum": ""
             },
             "require": {
@@ -113,7 +113,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T08:26:39+00:00"
+            "time": "2019-09-26T21:17:10+00:00"
         },
         {
             "name": "webignition/web-driver-element-collection",
@@ -1974,16 +1974,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
+                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
                 "shasum": ""
             },
             "require": {
@@ -1992,7 +1992,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -2017,7 +2017,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-20T15:27:04+00:00"
+            "time": "2019-10-25T08:06:51+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -2687,16 +2687,16 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v4.3.4",
+            "version": "v4.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
-                "reference": "9e5dddb637b13db82e35695a8603fe6e118cc119"
+                "reference": "78b7611c45039e8ce81698be319851529bf040b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/9e5dddb637b13db82e35695a8603fe6e118cc119",
-                "reference": "9e5dddb637b13db82e35695a8603fe6e118cc119",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/78b7611c45039e8ce81698be319851529bf040b1",
+                "reference": "78b7611c45039e8ce81698be319851529bf040b1",
                 "shasum": ""
             },
             "require": {
@@ -2742,7 +2742,7 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T08:26:39+00:00"
+            "time": "2019-09-10T11:25:17+00:00"
         },
         {
             "name": "symfony/console",
@@ -2821,16 +2821,16 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v4.3.4",
+            "version": "v4.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "cc686552948d627528c0e2e759186dff67c2610e"
+                "reference": "e9f7b4d19d69b133bd638eeddcdc757723b4211f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/cc686552948d627528c0e2e759186dff67c2610e",
-                "reference": "cc686552948d627528c0e2e759186dff67c2610e",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/e9f7b4d19d69b133bd638eeddcdc757723b4211f",
+                "reference": "e9f7b4d19d69b133bd638eeddcdc757723b4211f",
                 "shasum": ""
             },
             "require": {
@@ -2878,7 +2878,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T08:26:39+00:00"
+            "time": "2019-09-28T21:25:05+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2931,22 +2931,22 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v4.3.4",
+            "version": "v4.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "9a4fa769269ed730196a5c52c742b30600cf1e87"
+                "reference": "69d438274718121e1166e7f65c290f891a4c8ddb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/9a4fa769269ed730196a5c52c742b30600cf1e87",
-                "reference": "9a4fa769269ed730196a5c52c742b30600cf1e87",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/69d438274718121e1166e7f65c290f891a4c8ddb",
+                "reference": "69d438274718121e1166e7f65c290f891a4c8ddb",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3",
                 "psr/log": "^1.0",
-                "symfony/http-client-contracts": "^1.1.6",
+                "symfony/http-client-contracts": "^1.1.7",
                 "symfony/polyfill-php73": "^1.11"
             },
             "provide": {
@@ -2989,20 +2989,20 @@
             ],
             "description": "Symfony HttpClient component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-20T14:27:59+00:00"
+            "time": "2019-10-07T10:52:41+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
-            "version": "v1.1.6",
+            "version": "v1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client-contracts.git",
-                "reference": "6005fe61a33724405d56eb5b055d5d370192a1bd"
+                "reference": "353b2a3e907e5c34cf8f74827a4b21eb745aab1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/6005fe61a33724405d56eb5b055d5d370192a1bd",
-                "reference": "6005fe61a33724405d56eb5b055d5d370192a1bd",
+                "url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/353b2a3e907e5c34cf8f74827a4b21eb745aab1d",
+                "reference": "353b2a3e907e5c34cf8f74827a4b21eb745aab1d",
                 "shasum": ""
             },
             "require": {
@@ -3046,7 +3046,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-08-08T10:05:21+00:00"
+            "time": "2019-09-26T22:09:58+00:00"
         },
         {
             "name": "symfony/panther",
@@ -3448,6 +3448,48 @@
             "time": "2019-06-13T22:48:21+00:00"
         },
         {
+            "name": "webignition/base-panther-test-case",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/base-panther-test-case.git",
+                "reference": "4d6592531d7316a726d8192b20813ce2a4553fe2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/base-panther-test-case/zipball/4d6592531d7316a726d8192b20813ce2a4553fe2",
+                "reference": "4d6592531d7316a726d8192b20813ce2a4553fe2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2",
+                "phpunit/phpunit": "~8.0",
+                "symfony/panther": "^0.6"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.11.15",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\BasePantherTestCase\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "webignition@gmail.com"
+                }
+            ],
+            "homepage": "https://github.com/webignition/base-panther-test-case",
+            "time": "2019-10-31T16:04:08+00:00"
+        },
+        {
             "name": "webignition/php-dom-element-locator",
             "version": "0.1",
             "source": {
@@ -3491,16 +3533,16 @@
         },
         {
             "name": "webignition/symfony-panther-dom-crawler-navigator",
-            "version": "0.12",
+            "version": "0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webignition/symfony-panther-dom-crawler-navigator.git",
-                "reference": "0273835fac428785c958b2c3f2a1773126d3b578"
+                "reference": "5784f4eb170bfba01848cddc155c574a18616e81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webignition/symfony-panther-dom-crawler-navigator/zipball/0273835fac428785c958b2c3f2a1773126d3b578",
-                "reference": "0273835fac428785c958b2c3f2a1773126d3b578",
+                "url": "https://api.github.com/repos/webignition/symfony-panther-dom-crawler-navigator/zipball/5784f4eb170bfba01848cddc155c574a18616e81",
+                "reference": "5784f4eb170bfba01848cddc155c574a18616e81",
                 "shasum": ""
             },
             "require": {
@@ -3515,7 +3557,8 @@
                 "phpstan/phpstan": "^0.11.15",
                 "phpstan/phpstan-mockery": "^0.11.3",
                 "phpunit/phpunit": "~8.0",
-                "squizlabs/php_codesniffer": "3.*"
+                "squizlabs/php_codesniffer": "3.*",
+                "webignition/base-panther-test-case": "^0.1.0"
             },
             "type": "library",
             "autoload": {
@@ -3535,20 +3578,20 @@
             ],
             "description": "Navigate around a symfony panther dom crawler using convenience methods",
             "homepage": "https://github.com/webignition/symfony-panther-dom-crawler-navigatorr",
-            "time": "2019-10-29T12:53:18+00:00"
+            "time": "2019-10-31T17:07:06+00:00"
         },
         {
             "name": "webignition/webdriver-element-inspector",
-            "version": "0.4",
+            "version": "0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webignition/webdriver-element-inspector.git",
-                "reference": "03c4e00fa4fe195fad4f418015d0452a1afabc40"
+                "reference": "bcc2c056af1c06dd52b8d411803f9ac4a4cca97f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webignition/webdriver-element-inspector/zipball/03c4e00fa4fe195fad4f418015d0452a1afabc40",
-                "reference": "03c4e00fa4fe195fad4f418015d0452a1afabc40",
+                "url": "https://api.github.com/repos/webignition/webdriver-element-inspector/zipball/bcc2c056af1c06dd52b8d411803f9ac4a4cca97f",
+                "reference": "bcc2c056af1c06dd52b8d411803f9ac4a4cca97f",
                 "shasum": ""
             },
             "require": {
@@ -3562,8 +3605,9 @@
                 "phpstan/phpstan-mockery": "^0.11.3",
                 "phpunit/phpunit": "~8.0",
                 "squizlabs/php_codesniffer": "3.*",
-                "symfony/panther": "^0.5",
-                "webignition/symfony-panther-dom-crawler-navigator": ">=0.10,<1"
+                "symfony/panther": "^0.6",
+                "webignition/base-panther-test-case": "^0.1.0",
+                "webignition/symfony-panther-dom-crawler-navigator": ">=0.12,<1"
             },
             "type": "library",
             "autoload": {
@@ -3588,7 +3632,7 @@
                 "webdriver",
                 "webdriver-element"
             ],
-            "time": "2019-09-26T15:43:46+00:00"
+            "time": "2019-10-31T17:12:32+00:00"
         },
         {
             "name": "webmozart/assert",

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace webignition\WebDriverElementMutator\Tests\Functional;
 
-use webignition\DomElementLocator\ElementLocator;
+use webignition\DomElementIdentifier\ElementIdentifier;
 use webignition\SymfonyDomCrawlerNavigator\Navigator;
 use webignition\WebDriverElementInspector\Inspector;
 use webignition\WebDriverElementMutator\Mutator;
@@ -41,7 +41,7 @@ class MutatorTest extends AbstractTestCase
         $crawler = self::$client->request('GET', $fixture);
 
         $navigator = Navigator::create($crawler);
-        $elementLocator = new ElementLocator($elementCssSelector);
+        $elementLocator = new ElementIdentifier($elementCssSelector);
 
         $collection = $navigator->find($elementLocator);
 

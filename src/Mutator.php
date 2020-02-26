@@ -9,8 +9,8 @@ use webignition\WebDriverElementCollection\WebDriverElementCollectionInterface;
 
 class Mutator
 {
-    const SELECT_TAG_NAME = 'select';
-    const VALUE_ATTRIBUTE_NAME = 'value';
+    private const SELECT_TAG_NAME = 'select';
+    private const VALUE_ATTRIBUTE_NAME = 'value';
 
     public static function create(): Mutator
     {

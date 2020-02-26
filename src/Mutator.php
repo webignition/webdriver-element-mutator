@@ -17,7 +17,7 @@ class Mutator
         return new Mutator();
     }
 
-    public function setValue(WebDriverElementCollectionInterface $collection, string $value)
+    public function setValue(WebDriverElementCollectionInterface $collection, string $value): void
     {
         if ($collection instanceof RadioButtonCollection || $collection instanceof SelectOptionCollection) {
             $this->setSelectedCollectionValue($collection, $value);
@@ -38,7 +38,7 @@ class Mutator
         return;
     }
 
-    private function setElementValue(WebDriverElement $element, string $value)
+    private function setElementValue(WebDriverElement $element, string $value): void
     {
         $tagName = $element->getTagName();
 
@@ -58,7 +58,7 @@ class Mutator
         return;
     }
 
-    private function setSelectedCollectionValue(WebDriverElementCollectionInterface $collection, string $value)
+    private function setSelectedCollectionValue(WebDriverElementCollectionInterface $collection, string $value): void
     {
         foreach ($collection as $item) {
             $valueAttribute = trim((string) $item->getAttribute(self::VALUE_ATTRIBUTE_NAME));

@@ -11,15 +11,8 @@ use webignition\WebDriverElementMutator\Mutator;
 
 class MutatorTest extends AbstractTestCase
 {
-    /**
-     * @var Mutator
-     */
-    private $mutator;
-
-    /**
-     * @var Inspector
-     */
-    private $inspector;
+    private Mutator $mutator;
+    private Inspector $inspector;
 
     protected function setUp(): void
     {

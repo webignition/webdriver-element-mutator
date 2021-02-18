@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "897ba71b72f8cd979665641b4763feb5",
+    "content-hash": "9ab419ec2844fe633371ed900d468f6a",
     "packages": [
         {
             "name": "php-webdriver/webdriver",
@@ -437,6 +437,10 @@
                 "test double",
                 "testing"
             ],
+            "support": {
+                "issues": "https://github.com/mockery/mockery/issues",
+                "source": "https://github.com/mockery/mockery/tree/master"
+            },
             "time": "2020-05-19T14:25:16+00:00"
         },
         {

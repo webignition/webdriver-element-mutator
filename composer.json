@@ -46,6 +46,7 @@
         "php-webdriver/webdriver": "^1.9"
     },
     "require-dev": {
+        "dbrekelmans/bdi": "^0.3.0",
         "mockery/mockery": "^1.4",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^0.12.77",

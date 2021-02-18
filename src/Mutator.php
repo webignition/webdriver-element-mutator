@@ -34,8 +34,6 @@ class Mutator
                 return;
             }
         }
-
-        return;
     }
 
     private function setElementValue(WebDriverElement $element, string $value): void
@@ -54,8 +52,6 @@ class Mutator
 
         $element->clear();
         $element->sendKeys($value);
-
-        return;
     }
 
     private function setSelectedCollectionValue(WebDriverElementCollectionInterface $collection, string $value): void

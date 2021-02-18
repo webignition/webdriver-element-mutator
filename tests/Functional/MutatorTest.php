@@ -30,7 +30,7 @@ class MutatorTest extends AbstractTestCase
         string $elementCssSelector,
         string $value,
         ?string $expectedValue
-    ) {
+    ): void {
         $crawler = self::$client->request('GET', $fixture);
 
         $navigator = Navigator::create($crawler);
@@ -43,6 +43,9 @@ class MutatorTest extends AbstractTestCase
         $this->assertSame($expectedValue, $this->inspector->getValue($collection));
     }
 
+    /**
+     * @return array[]
+     */
     public function setValueDataProvider(): array
     {
         return [

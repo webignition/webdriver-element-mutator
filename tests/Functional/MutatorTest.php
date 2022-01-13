@@ -44,7 +44,7 @@ class MutatorTest extends AbstractTestCase
     }
 
     /**
-     * @return array[]
+     * @return array<mixed>
      */
     public function setValueDataProvider(): array
     {
